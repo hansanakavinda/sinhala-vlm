@@ -1,4 +1,3 @@
 transformers 
 einops 
-flash-attn 
 timm
