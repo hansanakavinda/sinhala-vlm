@@ -5,10 +5,12 @@
 # Note: LightOnOCR architecture requires transformers from source (or >= 5.0.0)
 git+https://github.com/huggingface/transformers.git
 
-# Deep Learning Framework
+# Deep Learning Framework & Parameter-Efficient Fine-Tuning
 torch>=2.2.0
 torchvision>=0.17.0
 accelerate>=0.28.0
+peft>=0.10.0
+bitsandbytes>=0.43.0
 
 # Hugging Face Hub & Datasets
 datasets>=2.18.0
