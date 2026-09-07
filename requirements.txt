@@ -1,0 +1,35 @@
+# ==============================================================================
+# Requirements for LightOnOCR-2-1B Base Accuracy Evaluation on Sinhala Dataset
+# ==============================================================================
+
+# Note: LightOnOCR architecture requires transformers from source (or >= 5.0.0)
+git+https://github.com/huggingface/transformers.git
+
+# Deep Learning Framework
+torch>=2.2.0
+torchvision>=0.17.0
+accelerate>=0.28.0
+
+# Hugging Face Hub & Datasets
+datasets>=2.18.0
+huggingface_hub>=0.21.0
+
+# Image & Document Handling
+pillow>=10.0.0
+pypdfium2>=4.30.0
+
+# OCR Evaluation Metrics (CER, WER, Levenshtein distance)
+jiwer>=3.0.0
+python-Levenshtein>=0.25.0
+
+# Data Processing & Visualization
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+tqdm>=4.66.0
+
+# Jupyter Notebook & Widgets
+jupyter>=1.0.0
+ipykernel>=6.29.0
+ipywidgets>=8.0.0
